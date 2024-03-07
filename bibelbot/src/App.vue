@@ -63,7 +63,7 @@ export default {
         headers: {
           'Content-Type': 'application/json',
           // Replace with your valid GPT-4 API key
-          Authorization: 'Bearer InsertKey',
+          Authorization: 'Bearer InsertToken',
         },
         body: JSON.stringify({ model: 'gpt-3.5-turbo', messages: [{ role: 'user', content: modifiedUserMessage }] }), 
       });
